@@ -1,0 +1,46 @@
+.habitHeaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.habitColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.habitControls {
+  display: flex;
+  flex-direction: column;
+}
+
+.habit {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  >span {
+    white-space: nowrap;
+  }
+}
+
+.deleteHabitIcon {
+display: flex;
+flex-direction: row;
+}
+
+.addHabitContainer {
+  display: flex;
+  margin-top: 1%;
+}
+/* .addHabitInput {
+  width: 100%;
+}
+.addHabitButton {
+  width: 100%
+} */
+.habitDetailsColumn {
+  display: flex;
+  flex-direction: column;
+}
+  
